@@ -24,7 +24,7 @@ Output:
     At 9:44, NORAD briefed the conference on the possible hijacking of Delta 1989. Two minutes later, staff reported that they were still trying to locate Secretary Rumsfeld and Vice Chairman Myers. The Vice Chairman joined the conference shortly before 10:00; the Secretary, shortly before 10:30. The Chairman was out of the country.
 ```
 
-Explanation: 
+Explanation: In the example above I use -n which gives back the line numbers as well as the text in the line numbers that contain the given string.
 
 ## First Command Second Example
 
@@ -39,7 +39,7 @@ Output:
 594:    Operators worked feverishly to include the FAA, but they had equipment problems and difficulty finding secure phone numbers. NORAD asked three times before 10:03 to confirm the presence of the FAA in the teleconference. The FAA representative who finally joined the call at 10:17 had no familiarity with or responsibility for hijackings, no access to decisionmakers, and none of the information available to senior FAA officials.
 ```
 
-Explanation: 
+Explanation: In the example above I changed the word to final rather than Delta and it displayed fewer lines than before.
 
 ---
 # Second Command
@@ -56,7 +56,7 @@ Output:
 5
 ```
 
-Explanation: 
+Explanation: The option -c is used to count the amount of lines that the string shows up inside. The example shows that within the text file there are 5 lines that contain the word Delta.
 
 ## Second Command Second Example
 
@@ -70,7 +70,7 @@ Output:
 2
 ```
 
-Explanation: 
+Explanation: The example above is using -c to count the amount of lines that final shows up in which is less than the example before it.
 
 ---
 # Third Command
@@ -96,7 +96,7 @@ Delta
 Delta
 ```
 
-Explanation: 
+Explanation: The command -o takes the string given into the command and prints the word for every instance that it is found within the txt file.
 
 ## Third Command Second Example
 
@@ -111,7 +111,7 @@ final
 final
 ```
 
-Explanation: 
+Explanation: The example is similar to the one above, but uses the word final instead which outputs only two instances where it happens.
 
 ---
 # Fourth Command
@@ -140,7 +140,7 @@ stringsearch-data/technical/911report/chapter-9.txt
 stringsearch-data/technical/911report/preface.txt
 ```
 
-Explanation: 
+Explanation: The last option on this lab report for grep is -L which displays all the files that the given string shows up in. In the example it searches the 911report file for all the txt files that contain the word "Delta' within it.
 
 ## Fourth Command Second Example
 
@@ -155,4 +155,4 @@ stringsearch-data/technical/911report/chapter-10.txt
 stringsearch-data/technical/911report/chapter-11.txt
 ```
 
-Explanation: 
+Explanation: In this example the string is "final" and is searched in the 911report file, which only finds two instances where the word shows up.
