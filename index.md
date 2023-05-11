@@ -1,4 +1,4 @@
-Resource: [grep manual](https://www.example.com)
+Resource: [grep manual]([https://www.example.com](https://man7.org/linux/man-pages/man1/grep.1.html))
 
 ---
 # First Command
