@@ -113,14 +113,15 @@ final
 
 Explanation: The example is similar to the one above, but uses the word final instead which outputs only two instances where it happens. The -o can be used to display all the matches over an existing number an example would be.
 
-` 
+```
 grep -o 'user[0-9]@example.com' file.txt
-`
-`
+```
+
+```
 user1@example.com
 user2@example.com
 user3@example.com
-`
+```
 
 Continued Explanation: So the -o option could be used to print out all the matches over a certain number and display. The -c however would just show the count of the times it pops up, but will not display them.
 
